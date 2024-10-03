@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Reset de margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do body */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    color: #333; /* Cor do texto */
+    background-color: #f4f4f4; /* Cor de fundo */
+}
+
+/* Estilos de links */
+a {
+    color: #3498db; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+/* Estilos de cabeçalhos */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem; /* Margem inferior para os cabeçalhos */
+}
+
+/* Estilos de listas */
+ul, ol {
+    padding-left: 1.5rem; /* Preenchimento à esquerda para listas */
+}
+
+/* Estilos de botões */
+button {
+    font-family: inherit; /* Usa a mesma fonte do body */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    padding: 0.5rem 1rem; /* Preenchimento interno */
+    border: none; /* Remove bordas */
+    border-radius: 0.25rem; /* Bordas arredondadas */
+    background-color: #3498db; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+}
+
+button:hover {
+    background-color: #2980b9; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilos de formulários */
+input, textarea, select {
+    font-family: inherit; /* Usa a mesma fonte do body */
+    padding: 0.5rem; /* Preenchimento interno */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 0.25rem; /* Bordas arredondadas */
+    width: 100%; /* Largura total */
+}
+
+/* Estilos de mensagens de erro */
+.error {
+    color: red; /* Cor vermelha para mensagens de erro */
+}
